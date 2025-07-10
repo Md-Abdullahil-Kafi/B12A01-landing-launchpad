@@ -206,7 +206,7 @@ nav{
 
 /* Ready to focus better */
 
-.focus{
+.b-focus{
     width: 1140px;
     margin: 100px auto;
     padding: 71px;
@@ -241,16 +241,97 @@ nav{
     padding: 71px 0;
     display: flex;
     gap: 114px;
-    justify-content: space-between;
     align-items: center;
 
     h1{
         font-size: 97px;
+        width: 528px;
     }
 
+
+}
+
+
+form{
+    width: 497px;
+    label{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+    }
+    
+    input{
+        width: 100%;
+        height: 70px;
+        border: none;
+        padding: 20px 32px;
+        font-size: 20px;
+        border-radius: 10px;
+        color: rgba(0, 0, 0, 0.2);
+    }
+
+    textarea{
+        width: 100%;
+        height: 135px;
+        padding: 20px 32px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        
+    }
+    ::placeholder{
+        opacity: .5;
+    }
+
+    input[type=submit]{
+        background-color: #4E47FF;
+        color: white;
+    }
     
 }
 
 
+
+/* Footer section */
+footer{
+    background-color: white;
+    padding: 104px 0;
+}
+.footer{
+    width: 531px;
+    margin: 14px auto 0;
+    background-color: white;
+    text-align: center;
+
+    h1{
+        font-size: 100px;
+        color: var(--primary-color);
+        font-weight: 900;
+    }
+
+    p{
+        color: #8987A1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #8987A1;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+}
 
 

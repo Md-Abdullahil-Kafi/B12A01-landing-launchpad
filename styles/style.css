@@ -5,11 +5,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Shared Items Start */
 :root{
     --primary-color: #4E47FF;
     --p-f-color: rgba(37, 36, 50, 0.5);
     
+}
+
+.btn-primary{
+   font-family: "Raleway", sans-serif;
+   padding: 12px 36px;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   background-color: var(--primary-color);
+   font-weight: 600;
+   font-size: 16px;
 }
 
 .text-inter{
@@ -18,5 +29,132 @@
 .text-raleway{
     font-family: "Raleway", sans-serif;
 }
+/* Shared Items End */
+
+/* Nav Section */
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+nav{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h3{
+    font-size: 34px;
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+/* Hero Section */
+.hero-section{
+    width: 905px;
+    margin: 154px auto;
+    text-align: center;
+    padding-bottom: 154px;
+
+    h1{
+        font-size: 65px;
+        margin-bottom: 37px;
+        color: rgba(37, 36, 50, 1);
+    }
+}
+
+/* Action Section */
+.action{
+    width: 1140px;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action .act-discription{
+    width: 517px;
+}
+
+.action h3{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.action p{
+    font-size: 24px;
+    margin: 23px 0;
+    color:rgba(37, 36, 50, 0.5);
+}
+
+.action img{
+    border-radius: 48px;
+}
+
+
+/* Productive User Section */
+.pro-user{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px;
+    border-radius: 24px;
+
+    h2{
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .pro-feedback{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: "Inter", sans-serif;
+        color: var(--primary-color);
+    }
+
+    p{
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+/* User Feedback Section */
+.user-feedback{
+    width: 1140px;
+    margin: 137px auto;
+
+    h2{
+        text-align: center;
+        font-size: 42px;
+        font-weight: 600;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .users{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+
+        .user1, .user2, .user3{
+            padding: 24px;
+        }
+
+    }
+}
+
+
+
 
 

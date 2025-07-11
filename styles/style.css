@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(238, 255, 249);
+    background-color: rgb(243, 255, 251);
 }
 /* Shared Items Start */
 :root{
@@ -162,6 +162,8 @@ nav{
 
    .user-feedback .users .user1, .user2, .user3{
             padding: 24px;
+            border: 2px solid #F2EDED;
+            border-radius: 14px;
         }
 
        .user-feedback .users i{
@@ -302,11 +304,12 @@ form input[type=submit]:hover{
         font-size: 24px;
     }
 
-input:focus,
+    input:focus,
 textarea:focus,
 .btn-primary:focus {
   outline: 2px solid #4E47FF;
   background-color: #f0f0f0;
+  color: #ffb700;
 }
 
 
@@ -315,6 +318,7 @@ textarea:focus,
 footer{
     background-color: white;
     padding: 104px 0;
+    border-top: 2px solid #F2EDED;
 }
 .footer{
     width: 531px;
